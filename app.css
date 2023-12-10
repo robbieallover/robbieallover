@@ -1,0 +1,241 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a22;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#home {
+    background-color: #a22;
+    padding: 20px;
+    text-align: center;
+}
+
+#job-listings {
+    padding: 20px;
+}
+
+#job-listings h2 {
+    color: #a22;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #a22;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+li h3 {
+    margin-top: 0;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #a22;
+    color: #fff;
+    text-decoration: none;
+}
+
+#job-details {
+    background-color: #a22;
+    padding: 20px;
+}
+
+#job-details h2 {
+    color: #a22;
+}
+
+#job-details h3 {
+    margin-top: 0;
+}
+
+#job-details a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #a22;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #a22;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* app.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Set your desired background color */
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #a22; /* Set your desired header background color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #f33; /* Set your desired footer background color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Add box shadows to elements for a subtle lift */
+.box-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a simple loading spinner */
+.loading-spinner {
+    border: 4px solid #a22;
+    border-top: 4px solid #222;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg)}
+}
+
+/* Styles for the Submit a Job page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #a22;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#submit-job-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #a22;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #a22;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
